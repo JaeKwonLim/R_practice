@@ -34,7 +34,7 @@ eval.ordered
 table(eval.factor) # 각 요소들의 개수 count
 table(eval.ordered) # 지정된 순서로 출력
 
-#----
+#-----
 sex <- c(2,1,2,2,1,0)
 sex.factor <- factor(sex, levels = c(1,2), labels = c('Male', "Female"))
 sex.factor
